@@ -9,4 +9,6 @@
 
 Update
 
-Now the script gets the configuration size and writes it to a file. This size will be used for comparison, so as not to save the RSC file in memory. And a block has been added to check the result of sending an email, if sending an email fails, the configuration size will not be updated.
+- The script gets the configuration size and writes it to a file. This size will be used for comparison, so as not to save the RSC file in memory.
+- Added a block to check the result of sending email, if sending email fails, the configuration size will not be updated.
+- Added ROS version and list of IP addresses (IP->Addresses) to the body of the email
