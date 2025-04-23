@@ -50,7 +50,7 @@
   /tool e-mail send \
     to=$smtpTo \
     subject=$mailSubject \
-    body=("Configuration is changed\nVersion: " . $rosVersion . "\nWAN IPs: " . $ipList) \
+    body=("Configuration is changed\nVersion: " . $rosVersion . "\nIPs: " . $ipList) \
     file=$ExportBackupName \
     server=$smtpServer port=$smtpPort from=$smtpFrom user=$smtpUser password=$smtpPassword tls=yes
   :delay 5
